@@ -8,7 +8,7 @@ metadata:
 spec:
   project: ecsdemo-frontend
   destination:
-    namespace: ecsdemo-frontend
+    namespace: team-slytherin
     server: {{ .Values.spec.destination.server }}
   source:
     repoURL: {{ .Values.spec.apps.ecsdemoFrontend.repoURL }}
