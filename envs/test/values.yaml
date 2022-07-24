@@ -2,6 +2,10 @@ spec:
   destination:
     server: https://kubernetes.default.svc
   apps:
+    ecsdemoCrystal:
+      repoURL: https://github.com/micmarc/ecsdemo-crystal.git
+      targetRevision: main
+      path: kubernetes/helm/ecsdemo-crystal
     ecsdemoFrontend:
       repoURL: https://github.com/micmarc/ecsdemo-frontend.git
       targetRevision: main
